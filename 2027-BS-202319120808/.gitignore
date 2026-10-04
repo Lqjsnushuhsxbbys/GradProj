@@ -1,0 +1,52 @@
+# ===== 操作系统 / 编辑器 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# ===== Keil MDK / STM32 构建产物 =====
+Objects/
+Listings/
+DebugConfig/
+RTE/_*/
+*.o
+*.d
+*.crf
+*.iex
+*.axf
+*.dep
+*.uvguix.*
+*.uvoptx
+JLinkLog.txt
+*.map
+*.bin
+*.hex
+
+# ===== STM32CubeIDE =====
+Debug/
+Release/
+.settings/
+
+# ===== Python（脚本/数据处理） =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ===== 日志与临时数据 =====
+*.log
+*.tmp
+*.bak
+
+# ===== 大体积数据与检查点（保留目录与 .gitkeep） =====
+data/samples/*
+!data/samples/.gitkeep
+results/checkpoints/*
+!results/checkpoints/.gitkeep
+results/logs/*
+!results/logs/.gitkeep
